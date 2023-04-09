@@ -8,6 +8,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #fafafa;
+  background-repeat: no-repeat;
   color: #212121;
   line-height: 1.5;
 }
@@ -17,4 +18,12 @@ body {
   padding: 8px;
   max-width: 320px;
   margin-bottom: 16px;
+}
+
+#search-box:focus {
+  width: 100%;
+  }
+  
+.country-list {
+    list-style: none;
 }
